@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keybord Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="font-family: Arial, Helvetica, sans-serif">
+    <div class="main w-full h-full">
+      <div class="flex-col">
+        <div class="flex-col">
+          <div class="flex-row bds">
+            <div class="gen-word">
+              <div id="word-test" class="word-test"></div>
+            </div>
+          </div>
+
+          <div class="flex-row bds">
+            <div class="input-word">
+              <div id="input-test" class="input-test"></div>
+            </div>
+            <div class="arrow">^</div>
+          </div>
+        </div>
+
+        <div class="keybord-action">
+          <div class="flex-col">
+            <div class="flex-row">
+              <div class="flex-row space-x-8">
+                <div id="KeyQ" class="keycap">Q</div>
+                <div id="KeyW" class="keycap">W</div>
+                <div id="KeyE" class="keycap">E</div>
+                <div id="KeyR" class="keycap">R</div>
+              </div>
+              <div class="flex-row space-x-8">
+                <div id="KeyT" class="keycap">T</div>
+                <div id="KeyY" class="keycap">Y</div>
+              </div>
+              <div class="flex-row space-x-8">
+                <div id="KeyU" class="keycap">U</div>
+                <div id="KeyI" class="keycap">I</div>
+                <div id="KeyO" class="keycap">O</div>
+                <div id="KeyP" class="keycap">P</div>
+              </div>
+            </div>
+
+            <div class="flex-row ml-16">
+              <div class="flex-row space-x-8">
+                <div id="KeyA" class="keycap">A</div>
+                <div id="KeyS" class="keycap">S</div>
+                <div id="KeyD" class="keycap">D</div>
+                <div id="KeyF" class="keycap">F</div>
+              </div>
+              <div class="flex-row space-x-8">
+                <div id="KeyG" class="keycap">G</div>
+                <div id="KeyH" class="keycap">H</div>
+              </div>
+              <div class="flex-row space-x-8">
+                <div id="KeyJ" class="keycap">J</div>
+                <div id="KeyK" class="keycap">K</div>
+                <div id="KeyL" class="keycap">L</div>
+                <div id="Semicolon" class="keycap">;</div>
+              </div>
+            </div>
+
+            <div class="flex-row ml-32">
+              <div class="flex-row space-x-8">
+                <div id="KeyZ" class="keycap">Z</div>
+                <div id="KeyX" class="keycap">X</div>
+                <div id="KeyC" class="keycap">C</div>
+                <div id="KeyV" class="keycap">V</div>
+              </div>
+              <div class="flex-row space-x-8">
+                <div id="KeyB" class="keycap">B</div>
+                <div id="KeyN" class="keycap">N</div>
+              </div>
+              <div class="flex-row space-x-8">
+                <div id="KeyM" class="keycap">M</div>
+                <div id="Comma" class="keycap">,</div>
+                <div id="Period" class="keycap">.</div>
+                <div id="Slash" class="keycap">/</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="onKey.js"></script>
+  </body>
+</html>
